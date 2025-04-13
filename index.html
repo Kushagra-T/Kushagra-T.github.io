@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="centered">My Portfolio</h1>
+        <button id="mode-toggle" aria-label="Toggle Dark Mode">
+            <span id="sun-icon" role="img" aria-label="Sun">🌞</span>
+            <span id="moon-icon" role="img" aria-label="Moon" style="display: none;">🌙</span>
+        </button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active" data-tab="home">Home</a></li>
+            <li><a href="#" data-tab="about">About</a></li>
+            <li><a href="#" data-tab="projects">Projects</a></li>
+            <li><a href="#" data-tab="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="tab-content active">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am Kushagra Tripathi a B.Tech student. Explore my work and get to know me better!</p>
+        </section>
+        <section id="about" class="tab-content">
+            <h2>About Me</h2>
+            <p>Hi! I'm Kushagra Tripathi, a first-year B.Tech student in Computer Science and Engineering (with a specialization in Artificial Intelligence and Machine Learning) at SRM Institute of Science and Technology, Kattankulathur.<br>
+
+                I completed my schooling at St. Joseph's College, Prayagraj, where I first discovered my passion for technology. Since then, I've been building my skills in programming languages like Java, C, C++, Python, as well as web technologies like HTML, CSS, and JavaScript.<br>
+                
+                I'm curious by nature and always excited to learn new things—especially anything related to computers and AI. I speak English, Hindi, and a little bit of French, and I enjoy working in diverse teams and environments.<br>
+                
+                Outside the world of code, you'll probably find me playing cricket or exploring something new and interesting!<br>
+                
+                I'm always looking for new opportunities to grow, collaborate, and learn more—so feel free to connect!<br></p>
+        </section>
+        <section id="projects" class="tab-content">
+            <h1>Projects</h1>
+            <p>
+                <h3>• Laser Home Security System (Semiconductor Lab Project)</h3>
+                Hardware-based model using laser and sensors
+                Designed a simple laser-based home security system that triggers an alert when the laser beam is interrupted. This project helped me understand the practical applications of semiconductor components and sensors in real-world security systems.
+                
+                <h3>• Number Guessing Game</h3>
+                Java & C
+                Developed two versions of a classic number guessing game—one in Java with a user-friendly interface and another in C using console input. Improved my logic-building skills and learned the basics of random number generation and control structures.
+                
+                <h3>• Digital Timer</h3>
+                C & Java
+                Created a basic timer that allows users to set countdowns and view elapsed time. Practiced working with loops, time functions, and user input handling in both languages.
+                
+                <h3>• Digital Clock</h3>
+                Java
+                Built a functional digital clock application in Java using Swing. Displays real-time hours, minutes, and seconds with a clean interface. This project strengthened my understanding of Java GUI components and multi-threading.
+            </p>
+        </section>
+        <section id="contact" class="tab-content">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:kt4518@srmist.edu.in">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/kushagra-tripathi-1212a732b/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Kushagra-T/" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
